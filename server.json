@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CSOAI-ORG/eudi-wallet-mcp",
+  "version": "1.0.0",
+  "description": "EUDI Wallet MCP — EU Digital Identity Wallet under eIDAS 2.0 for AI agent authentication via Verifiable Credentials + OID4VC + OID4VP + ISO 18013-5 mDoc. By MEOK AI Labs.",
+  "repository": { "url": "https://github.com/CSOAI-ORG/eudi-wallet-mcp", "source": "github" },
+  "packages": [{ "registryType": "pypi", "identifier": "eudi-wallet-mcp", "version": "1.0.0", "runtimeHint": "python", "transport": { "type": "stdio" } }],
+  "remotes": [{ "type": "streamable-http", "url": "https://api.meok.ai/v1/a2a/eudi-wallet" }]
+}
