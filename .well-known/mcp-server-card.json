@@ -1,0 +1,37 @@
+{
+  "name": "eudi-wallet-mcp",
+  "title": "Eudi Wallet Mcp",
+  "description": "EUDI Wallet MCP \u2014 EU Digital Identity Wallet under eIDAS 2.0 for AI agent authentication. ISO 18013-5 (mDoc) + W3C VC 2.0 + OID4VC + OID4VP. By MEOK AI Labs.",
+  "version": "1.0.1",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "list_credential_types"
+    },
+    {
+      "name": "prepare_credential_offer"
+    },
+    {
+      "name": "create_presentation_request"
+    },
+    {
+      "name": "verify_presented_credential"
+    },
+    {
+      "name": "check_revocation_status"
+    },
+    {
+      "name": "generate_selective_disclosure"
+    },
+    {
+      "name": "bridge_to_w3c_vc"
+    },
+    {
+      "name": "bridge_to_oid4vc"
+    }
+  ]
+}

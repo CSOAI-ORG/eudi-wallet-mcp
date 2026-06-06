@@ -1,0 +1,24 @@
+# eudi-wallet-mcp
+
+> EUDI Wallet MCP — EU Digital Identity Wallet under eIDAS 2.0 for AI agent authentication. ISO 18013-5 (mDoc) + W3C VC 2.0 + OID4VC + OID4VP. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- list_credential_types
+- prepare_credential_offer
+- create_presentation_request
+- verify_presented_credential
+- check_revocation_status
+- generate_selective_disclosure
+- bridge_to_w3c_vc
+- bridge_to_oid4vc
+
+## Install
+```
+pip install eudi-wallet-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/eudi-wallet-mcp/
+- Docs: https://meok.ai

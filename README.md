@@ -1,4 +1,7 @@
 # Eudi Wallet MCP
+mcp-name: io.github.CSOAI-ORG/eudi-wallet-mcp
+
+# EUDI Wallet MCP
 
 [![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
 [![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
@@ -76,3 +79,32 @@ MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
 <p align="center">
   <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
 </p>
+> Refundable. UK Stripe — VAT-clean. Builds on the 81-MCP MEOK fleet.
+> Verify any signed report at <https://meok.ai/verify>.
+
+<!-- BUY-LADDER:END -->
+
+
+## Configuration
+
+Add to your `claude_desktop_config.json` (Claude Desktop) or your MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "eudi-wallet-mcp": {
+      "command": "uvx",
+      "args": ["eudi-wallet-mcp"]
+    }
+  }
+}
+```
+
+Or: `pip install eudi-wallet-mcp` then run the `eudi-wallet-mcp` command (stdio transport).
+
+## Examples
+
+Once configured, ask your assistant, for example:
+- "Use `list_credential_types` to …"
+- "Use `prepare_credential_offer` to …"
+- "Use `create_presentation_request` to …"
