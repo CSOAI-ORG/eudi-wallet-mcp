@@ -1,0 +1,95 @@
+{
+  "name": "eudi-wallet-mcp",
+  "description": "EUDI Wallet MCP \u2014 EU Digital Identity Wallet under eIDAS 2.0 for AI agent authentication via",
+  "url": "https://proofof.ai/scorecard/eudi-wallet-mcp.html",
+  "version": "1.0.1",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "list_credential_types",
+      "name": "List Credential Types",
+      "description": "list_credential_types via eudi-wallet-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_credential_offer",
+      "name": "Prepare Credential Offer",
+      "description": "prepare_credential_offer via eudi-wallet-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "create_presentation_request",
+      "name": "Create Presentation Request",
+      "description": "create_presentation_request via eudi-wallet-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "verify_presented_credential",
+      "name": "Verify Presented Credential",
+      "description": "verify_presented_credential via eudi-wallet-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_revocation_status",
+      "name": "Check Revocation Status",
+      "description": "check_revocation_status via eudi-wallet-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_selective_disclosure",
+      "name": "Generate Selective Disclosure",
+      "description": "generate_selective_disclosure via eudi-wallet-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "bridge_to_w3c_vc",
+      "name": "Bridge To W3C Vc",
+      "description": "bridge_to_w3c_vc via eudi-wallet-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "bridge_to_oid4vc",
+      "name": "Bridge To Oid4Vc",
+      "description": "bridge_to_oid4vc via eudi-wallet-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

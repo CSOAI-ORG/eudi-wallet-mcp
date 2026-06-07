@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "eudi-wallet-mcp",
+    "description": "EUDI Wallet MCP \u2014 EU Digital Identity Wallet under eIDAS 2.0 for AI agent authentication via",
+    "version": "1.0.1",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "eudi-wallet-mcp"
+      }
+    ],
+    "capabilities": [
+      "list_credential_types",
+      "prepare_credential_offer",
+      "create_presentation_request",
+      "verify_presented_credential",
+      "check_revocation_status",
+      "generate_selective_disclosure",
+      "bridge_to_w3c_vc",
+      "bridge_to_oid4vc"
+    ]
+  }
+}
