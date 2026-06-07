@@ -1,0 +1,2 @@
+[console_scripts]
+eudi-wallet-mcp = server:main
