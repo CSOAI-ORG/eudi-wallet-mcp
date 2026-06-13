@@ -1,0 +1,160 @@
+{
+  "name": "Eudi Wallet Mcp",
+  "version": "1.0.1",
+  "url": "https://mcp.meok.ai/eudi-wallet-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "EUDI Wallet MCP — EU Digital Identity Wallet under eIDAS 2.0 for AI agent authentication. ISO 18013-5 (mDoc) + W3C VC 2.0 + OID4VC + OID4VP. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "list_credential_types",
+      "name": "List Credential Types",
+      "description": "List Credential Types — a tool of the eudi-wallet-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_credential_offer",
+      "name": "Prepare Credential Offer",
+      "description": "Prepare Credential Offer — a tool of the eudi-wallet-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "create_presentation_request",
+      "name": "Create Presentation Request",
+      "description": "Create Presentation Request — a tool of the eudi-wallet-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "verify_presented_credential",
+      "name": "Verify Presented Credential",
+      "description": "Verify Presented Credential — a tool of the eudi-wallet-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_revocation_status",
+      "name": "Check Revocation Status",
+      "description": "Check Revocation Status — a tool of the eudi-wallet-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_selective_disclosure",
+      "name": "Generate Selective Disclosure",
+      "description": "Generate Selective Disclosure — a tool of the eudi-wallet-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "bridge_to_w3c_vc",
+      "name": "Bridge To W3C Vc",
+      "description": "Bridge To W3C Vc — a tool of the eudi-wallet-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "bridge_to_oid4vc",
+      "name": "Bridge To Oid4Vc",
+      "description": "Bridge To Oid4Vc — a tool of the eudi-wallet-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "eudi-wallet-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}

@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: eudi-wallet-mcp
-Version: 1.0.1
+Version: 1.0.2
 Summary: EUDI Wallet MCP — EU Digital Identity Wallet under eIDAS 2.0 for AI agent authentication. ISO 18013-5 (mDoc) + W3C VC 2.0 + OID4VC + OID4VP. By MEOK AI Labs.
 Author-email: Nicholas Templeman <nicholas@meok.ai>
 License: MIT
